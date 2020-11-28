@@ -1,0 +1,36 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+img{
+	display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  display: block;
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.wrap{
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.material-icons{
+  vertical-align: bottom;
+}
+
+code{
+  font-family: 'Roboto Mono', monospace;
+  background: theme-color("secondary");
+  color: theme-color("primary");
+}
+
+textarea{
+  resize: none;
+}
